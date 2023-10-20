@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
+.body{
+    background-color: rgb(230, 230, 108);
+     
+}
+.colorbarraverde{
+    background-color: #75b703db;
+}
+.bg-colorblancocrema{
+    background-color: rgb(222, 196, 196);
+}
+
+.bgreservaddos{
+    background-color: seagreen;
+}
+.tituloh1{
+    font-size: 30px; color: rgb(0, 0, 0);font-family: 'kanit'; font-weight: bold ;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;700&family=Kanit:wght@200;400&display=swap');
+.letratitulo{
+    font-family: 'cormorant'; font-weight: bold
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;700&family=Kanit:wght@200;400&family=Tenor+Sans&display=swap');
+.fuenteparra{
+    font-family: 'tenor sans'; font-weight: bold ;font-size: 20px; 
+}
+.fuentefoot{
+    font-family: 'tenor sans'; font-weight: bold ;font-size: 18px;
+}
+
+.test{
+    border: 1px solid;
+    border-radius: 25px;
+}
