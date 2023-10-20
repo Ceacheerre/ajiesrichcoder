@@ -9,69 +9,103 @@
 </head>
 <body class="bodybackground">
   <header class="">
-      <nav class="navbar navbar-expand-lg navbar-light colorbarraverde .letrabarratipo ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-              <img src="../img/iconoajiesrich.png" alt="Ajies Rich"> 
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/sucursales.html">Sucursales</a>
-                </li>
-                <li class="nav-item"> 
-                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-                
-              </ul>
-              
-            </div>
-          </div>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light colorbarraverde barranavmia link">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../img/iconoajiesrich.png" alt="Ajies Rich"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse barranavmia" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end barranavmia">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link stylebutton" href="../pages/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item"> 
+              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
         </header>
         <main>
-            <h1> contacto</h1>
-            <form action="404.html">
+          <section>
+            <div class="container">
+              <div class="row mt-5">
                 <div>
-                    <label id="nombre" for="">Nombre y Apellido</label>
+                  <h1 class="tituloh1 justify-content-end ">Contactanos</h1>
                 </div>
-                <div><input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
-                    <input type="text" name="" id="apellido" placeholder="Ingrese su apellido" required>
+                <div class="col-sm-12 col-md-6 mt-5" >
+                  <img class="border-image" src="../img/ajiahumadoartistic.jpg" width="400" height="600" alt=" ahi ahumado molido con estilo">
                 </div>
-                <div>
-                    <label for="email">Ingrese su email</label>
-                </div>
-                <div>
-                    <input type="email" name="email" id="email" placeholder="contacto@email.com" required>
-                </div>
-                <div>
-                    <label for="mensaje"><Img:z></Img:z>Ingrese su comentario</label>
-                </div>
-                <div>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
-                </div>
-                <div>
-                    <input type="submit" id="enviar" name="Enviar" value="enviar">
-                </div>
+                <div class="col-sm-12 col-md-6">
+                  <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="well well-sm">
+                                <form class="form-horizontal" method="post">
+                                    <fieldset>
+                                        <legend class="text-center header">Cuentanos el picor que necesitas.</legend>
                 
-             
+                                        <div class="form-group mt-5">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="fname" name="Nombre" type="text" placeholder="Nombre" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                                            </div>
+                                        </div>
+                
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                            </div>
+                                          </div>
+                                        </div>
+                
+                                        <div class="form-group">
+                                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                            <div class="col-md-8">
+                                                <textarea class="form-control" id="message" name="mensaje" placeholder="Cuentanos que variedades quieres" rows="7"></textarea>
+                                            </div>
+                                        </div>
+                
+                                        <div class="form-group">
+                                            <div class="col-md-12 text-center">
+                                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                                            </div>  
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+          </section>
         </main>
         <footer>
           <nav class="row mt-5 colorbarraverde">
             <div class="col-sm-6 col-md-2 "><img src="../img/Facebook_icon-icons.com_66805.png" alt="whatsapp"><a href="">Facebook</a></div>
-            <div class="col-sm-6 col-md-2 "><img src="./img/instagram_logo_icon_229292.png" alt="whatsapp"><a href="">Instagram</a></div>
-            <div class="col-sm-6 col-md-2 "><img src="./img/whatsapp_icon-icons.com_53606.png" alt="whatsapp"><a href="">Whatsapp</a></div>
+            <div class="col-sm-6 col-md-2 "><img src="../img/instagram_logo_icon_229292.png" alt="whatsapp"><a href="">Instagram</a></div>
+            <div class="col-sm-6 col-md-2 "><img src="../img/whatsapp_icon-icons.com_53606.png" alt="whatsapp"><a href="">Whatsapp</a></div>
         </nav>
         <section class=" container-fluid colorbarraverde row w-100 justify-content-end">
           <p class="fuentefoot">Los Jasminez Talcahuano, Chile 
